@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+         
+    </head>
+    <body>
+        {{>header}}
+       
+       <main>
+        <div id="input-box">
+            <form action="">
+                <label >Enter Location</label>
+                <input type="text" required id="loc" name="location">
+                <button id="btn">submit</button>
+            </form>
+        </div>
+        <div>
+            <h1 id="h1"></h1>
+            <h2 id="p1"></h2>
+            <img src="" alt="" id="img">
+        </div>
+       </main>  
+        {{>footer}}
+        <script src="js/script.js"></script>
+    </body>
+</html>
