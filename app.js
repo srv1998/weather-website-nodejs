@@ -48,7 +48,7 @@ app.get('/weather',(req,res)=>{
        return res.json({error:err})
        else
         {
-            console.log(result)
+           
            return  res.json({
                result:result
             })
