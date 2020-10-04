@@ -9,7 +9,7 @@ input.addEventListener('change',(e)=>{
 })
 btn.addEventListener('click',(e)=>{
     e.preventDefault()
-    fetch(`http://localhost:4000/weather?location=${loc}`
+    fetch(`/weather?location=${loc}`
 )
 .then(response=>{
     response.json().then(data=>{

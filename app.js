@@ -74,6 +74,6 @@ app.get('*',(req,res)=>{
 
 
 
+let port = process.env.PORT||4000
 
-
-app.listen(4000,()=>console.log('port 4000 up and running...'))
+app.listen(port,()=>console.log(`port ${port} up and running...`))
