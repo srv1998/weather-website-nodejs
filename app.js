@@ -2,7 +2,7 @@ const express= require('express')
 const path= require('path')
 const app= express()
 const hbs= require('hbs')
-const getWeather= require('../weather-app/getWeather')
+const getWeather= require('./getWeather')
 //for .hbs pages...
 app.set('view engine','hbs') // setting view engine of express to hbs.(handlebars-dynamic html pages)
 // by default nodejs searches for .hbs files in folder named as "views"  but if we want to give different name to folder containng .hbs files then refer below..
